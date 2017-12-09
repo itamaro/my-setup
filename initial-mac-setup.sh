@@ -16,6 +16,7 @@ brew_taps=(
 )
 
 brew_formulae=(
+    ack
     bash
     brew-cask-completion
     bash-completion
@@ -41,6 +42,7 @@ brew_formulae=(
     jq
     kubernetes-cli
     kubernetes-helm
+    mackup
     node
     npm
     octave
@@ -76,11 +78,13 @@ brew_casks=(
     handbrake
     iterm2
     java
+    karabiner
     lastpass
     mactex
     nvalt
     pandoc
     pdfpenpro
+    sizeup
     skitch
     sourcetree
     sublime-text
@@ -88,6 +92,7 @@ brew_casks=(
     transmit
     tunnelblick
     virtualbox
+    vlc
     wavebox
     wireshark
     xquartz
