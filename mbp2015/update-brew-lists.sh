@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Updating Homebrew"
+brew update
+
 echo "Save versions of installed Homebrew & Cask"
 brew --version > homebrew.version
 brew cask --version > homebrew.cask.version
