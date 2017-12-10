@@ -1,3 +1,4 @@
+ack 2.18
 apache-spark 1.6.0 2.0.2
 arpack 3.4.0
 autoconf 2.69
@@ -77,6 +78,7 @@ little-cms2 2.8
 lua 5.2.4_4
 lzip 1.18
 lzo 2.09
+mackup 0.8.16
 matplotlib 1.5.0 1.5.1
 maven 3.3.9
 metis 5.1.0
