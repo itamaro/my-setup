@@ -17,3 +17,4 @@ BASE_DIR="$( get_script_dir )"
 cd $BASE_DIR
 
 ./update-brew-lists.sh
+./update-apps-list.sh
