@@ -110,3 +110,5 @@ echo "Install casks using Homebrew Cask"
 brew cask install ${brew_casks[@]}
 
 brew cask cleanup
+
+./osx-config.sh
