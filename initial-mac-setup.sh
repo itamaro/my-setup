@@ -51,6 +51,7 @@ brew_formulae=(
     python
     python3
     ruby
+    rust
     socat
     sqlite
     ssh-copy-id
@@ -91,6 +92,7 @@ brew_casks=(
     the-unarchiver
     transmit
     tunnelblick
+    vagrant
     virtualbox
     vlc
     wavebox
