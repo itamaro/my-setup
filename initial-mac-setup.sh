@@ -43,6 +43,7 @@ brew_formulae=(
     kubernetes-cli
     kubernetes-helm
     mackup
+    maven
     node
     npm
     octave
@@ -90,6 +91,7 @@ brew_casks=(
     sourcetree
     sublime-text
     the-unarchiver
+    ticktick
     transmit
     tunnelblick
     vagrant
