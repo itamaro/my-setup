@@ -111,6 +111,7 @@ qrupdate 1.1.2_4
 qscintilla2 2.9.3_3
 qt 5.7.0
 readline 6.3.8 7.0.1 7.0.3_1
+rename 1.600
 ruby 2.2.3 2.3.0 2.3.3 2.4.2_1
 rust 1.22.1
 scons 2.3.6 2.5.1
