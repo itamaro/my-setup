@@ -51,6 +51,7 @@ brew_formulae=(
     protobuf
     python
     python3
+    rename
     ruby
     rust
     socat
@@ -90,6 +91,7 @@ brew_casks=(
     skitch
     sourcetree
     sublime-text
+    synergy
     the-unarchiver
     ticktick
     transmit
