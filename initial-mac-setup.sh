@@ -34,6 +34,7 @@ brew_formulae=(
     git
     go
     godep
+    graphviz
     grpc
     heroku
     homebrew/dupes/grep
