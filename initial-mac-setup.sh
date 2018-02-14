@@ -59,6 +59,7 @@ brew_formulae=(
     sqlite
     ssh-copy-id
     telepresence
+    travis
     tree
     unrar
     watch
