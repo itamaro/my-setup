@@ -62,6 +62,7 @@ brew_formulae=(
     travis
     tree
     unrar
+    vim
     watch
     wget
     wrk
@@ -86,6 +87,7 @@ brew_casks=(
     karabiner
     lastpass
     mactex
+    ngrok
     nvalt
     pandoc
     pdfpenpro
