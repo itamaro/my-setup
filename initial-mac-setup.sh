@@ -43,8 +43,8 @@ brew_formulae=(
     jq
     kubernetes-cli
     kubernetes-helm
-    mackup
     maven
+    nano
     node
     npm
     octave
