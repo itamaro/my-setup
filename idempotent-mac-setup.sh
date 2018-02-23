@@ -10,3 +10,4 @@ echo "Update Homrbrew"
 brew update
 
 ./osx-config.sh
+./quick-idempotent-mac-setup.sh
