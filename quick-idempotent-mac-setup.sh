@@ -29,3 +29,8 @@ install_dotfile() {
     ln -s "$src" "$dst"
   fi
 }
+
+echo "Setting up dotfiles from $DOTFILES"
+DOTFILES="$SCRIPT_DIR/dotfiles"
+# Ansible
+install_dotfile "$DOTFILES/.ansible.cfg" "$HOME/.ansible.cfg"
