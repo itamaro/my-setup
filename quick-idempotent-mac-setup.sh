@@ -34,3 +34,5 @@ echo "Setting up dotfiles from $DOTFILES"
 DOTFILES="$SCRIPT_DIR/dotfiles"
 # Ansible
 install_dotfile "$DOTFILES/.ansible.cfg" "$HOME/.ansible.cfg"
+# bash / bin
+install_dotfile "$DOTFILES/.profile.d" "$HOME/.profile.d"
