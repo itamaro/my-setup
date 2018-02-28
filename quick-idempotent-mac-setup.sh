@@ -36,5 +36,8 @@ DOTFILES="$SCRIPT_DIR/dotfiles"
 install_dotfile "$DOTFILES/.ansible.cfg" "$HOME/.ansible.cfg"
 # bash / bin
 install_dotfile "$DOTFILES/.profile.d" "$HOME/.profile.d"
+# Git
+install_dotfile "$DOTFILES/.gitconfig" "$HOME/.gitconfig"
+install_dotfile "$DOTFILES/.gitignore_global" "$HOME/.gitignore_global"
 # vim
 install_dotfile "$DOTFILES/.vimrc" "$HOME/.vimrc"
