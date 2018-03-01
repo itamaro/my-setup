@@ -39,5 +39,8 @@ install_dotfile "$DOTFILES/.profile.d" "$HOME/.profile.d"
 # Git
 install_dotfile "$DOTFILES/.gitconfig" "$HOME/.gitconfig"
 install_dotfile "$DOTFILES/.gitignore_global" "$HOME/.gitignore_global"
+# nano
+install_dotfile "$DOTFILES/.nanorc" "$HOME/.nanorc"
+install_dotfile "$DOTFILES/.nano" "$HOME/.nano"
 # vim
 install_dotfile "$DOTFILES/.vimrc" "$HOME/.vimrc"

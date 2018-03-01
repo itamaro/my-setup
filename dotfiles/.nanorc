@@ -1,0 +1,7 @@
+# Constantly show cursor position
+set const
+
+set autoindent
+
+# Improved Nano Syntax Highlighting
+include ~/.nano/*.nanorc
