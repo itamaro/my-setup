@@ -32,6 +32,7 @@ brew_formulae=(
     firebase-cli
     gcc
     git
+    git-lfs
     go
     godep
     graphviz
