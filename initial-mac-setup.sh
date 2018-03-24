@@ -52,7 +52,7 @@ brew_formulae=(
     p7zip
     protobuf
     python
-    python3
+    python@2
     rename
     ruby
     rust
