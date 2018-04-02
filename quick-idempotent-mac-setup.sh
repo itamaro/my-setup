@@ -44,3 +44,16 @@ install_dotfile "$DOTFILES/.nanorc" "$HOME/.nanorc"
 install_dotfile "$DOTFILES/.nano" "$HOME/.nano"
 # vim
 install_dotfile "$DOTFILES/.vimrc" "$HOME/.vimrc"
+
+SENSITIVE="$HOME/Dropbox/Mackup"
+echo "Setting up sensitive dotfiles from $SENSITIVE"
+# SSH (configs, public keys, NOT private keys! (see "backup/restore secrets"))
+install_dotfile "$SENSITIVE/.ssh/config" "$HOME/.ssh/config"
+install_dotfile "$SENSITIVE/.ssh/known_hosts" "$HOME/.ssh/known_hosts"
+install_dotfile "$SENSITIVE/.ssh/google_compute_known_hosts" "$HOME/.ssh/google_compute_known_hosts"
+install_dotfile "$SENSITIVE/.ssh/id_rsa.pub" "$HOME/.ssh/id_rsa.pub"
+install_dotfile "$SENSITIVE/.ssh/id_me_rsa.pub" "$HOME/.ssh/id_me_rsa.pub"
+install_dotfile "$SENSITIVE/.ssh/id_rsa_crs.pub" "$HOME/.ssh/id_rsa_crs.pub"
+install_dotfile "$SENSITIVE/.ssh/id_rsa_github.pub" "$HOME/.ssh/id_rsa_github.pub"
+install_dotfile "$SENSITIVE/.ssh/itamaro.pub" "$HOME/.ssh/itamaro.pub"
+install_dotfile "$SENSITIVE/.ssh/google_compute_engine.pub" "$HOME/.ssh/google_compute_engine.pub"
