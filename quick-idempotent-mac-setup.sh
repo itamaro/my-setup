@@ -57,3 +57,5 @@ install_dotfile "$SENSITIVE/.ssh/id_rsa_crs.pub" "$HOME/.ssh/id_rsa_crs.pub"
 install_dotfile "$SENSITIVE/.ssh/id_rsa_github.pub" "$HOME/.ssh/id_rsa_github.pub"
 install_dotfile "$SENSITIVE/.ssh/itamaro.pub" "$HOME/.ssh/itamaro.pub"
 install_dotfile "$SENSITIVE/.ssh/google_compute_engine.pub" "$HOME/.ssh/google_compute_engine.pub"
+# AWS (config, NOT credentials (see "backup/restore secrets"))
+install_dotfile "$SENSITIVE/.aws/config" "$HOME/.aws/config"
