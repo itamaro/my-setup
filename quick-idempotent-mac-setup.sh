@@ -59,3 +59,5 @@ install_dotfile "$SENSITIVE/.ssh/itamaro.pub" "$HOME/.ssh/itamaro.pub"
 install_dotfile "$SENSITIVE/.ssh/google_compute_engine.pub" "$HOME/.ssh/google_compute_engine.pub"
 # AWS (config, NOT credentials (see "backup/restore secrets"))
 install_dotfile "$SENSITIVE/.aws/config" "$HOME/.aws/config"
+# bash / bin
+install_dotfile "$SENSITIVE/.private.profile.d" "$HOME/.private.profile.d"
