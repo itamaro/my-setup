@@ -61,3 +61,5 @@ install_dotfile "$SENSITIVE/.ssh/google_compute_engine.pub" "$HOME/.ssh/google_c
 install_dotfile "$SENSITIVE/.aws/config" "$HOME/.aws/config"
 # bash / bin
 install_dotfile "$SENSITIVE/.private.profile.d" "$HOME/.private.profile.d"
+# docker
+install_dotfile "$SENSITIVE/.dockercfg" "$HOME/.dockercfg"
