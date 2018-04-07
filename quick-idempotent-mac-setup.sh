@@ -63,3 +63,5 @@ install_dotfile "$SENSITIVE/.aws/config" "$HOME/.aws/config"
 install_dotfile "$SENSITIVE/.private.profile.d" "$HOME/.private.profile.d"
 # docker
 install_dotfile "$SENSITIVE/.dockercfg" "$HOME/.dockercfg"
+# ipython
+install_dotfile "$SENSITIVE/.ipython" "$HOME/.ipython"
