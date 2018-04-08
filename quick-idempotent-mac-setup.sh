@@ -65,3 +65,5 @@ install_dotfile "$SENSITIVE/.private.profile.d" "$HOME/.private.profile.d"
 install_dotfile "$SENSITIVE/.dockercfg" "$HOME/.dockercfg"
 # ipython
 install_dotfile "$SENSITIVE/.ipython" "$HOME/.ipython"
+# something javascripty
+install_dotfile "$SENSITIVE/.config/configstore" "$HOME/.config/configstore"
