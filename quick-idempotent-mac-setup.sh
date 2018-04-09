@@ -67,3 +67,5 @@ install_dotfile "$SENSITIVE/.dockercfg" "$HOME/.dockercfg"
 install_dotfile "$SENSITIVE/.ipython" "$HOME/.ipython"
 # something javascripty
 install_dotfile "$SENSITIVE/.config/configstore" "$HOME/.config/configstore"
+# hub? Docker? Github?
+install_dotfile "$SENSITIVE/.config/hub" "$HOME/.config/hub"
