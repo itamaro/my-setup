@@ -18,6 +18,7 @@ brew_taps=(
 brew_formulae=(
     ack
     bash
+    bazel
     brew-cask-completion
     bash-completion
     bash-git-prompt
