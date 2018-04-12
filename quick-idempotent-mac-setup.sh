@@ -69,3 +69,5 @@ install_dotfile "$SENSITIVE/.ipython" "$HOME/.ipython"
 install_dotfile "$SENSITIVE/.config/configstore" "$HOME/.config/configstore"
 # hub? Docker? Github?
 install_dotfile "$SENSITIVE/.config/hub" "$HOME/.config/hub"
+# netrc
+install_dotfile "$SENSITIVE/.netrc" "$HOME/.netrc"
