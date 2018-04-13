@@ -71,3 +71,5 @@ install_dotfile "$SENSITIVE/.config/configstore" "$HOME/.config/configstore"
 install_dotfile "$SENSITIVE/.config/hub" "$HOME/.config/hub"
 # netrc
 install_dotfile "$SENSITIVE/.netrc" "$HOME/.netrc"
+# ngrok
+install_dotfile "$SENSITIVE/.ngrok2" "$HOME/.ngrok2"
