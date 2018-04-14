@@ -73,3 +73,5 @@ install_dotfile "$SENSITIVE/.config/hub" "$HOME/.config/hub"
 install_dotfile "$SENSITIVE/.netrc" "$HOME/.netrc"
 # ngrok
 install_dotfile "$SENSITIVE/.ngrok2" "$HOME/.ngrok2"
+# octave (probably not sensitive, CBA)
+install_dotfile "$SENSITIVE/.config/octave" "$HOME/.config/octave"
