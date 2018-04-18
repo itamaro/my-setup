@@ -75,3 +75,5 @@ install_dotfile "$SENSITIVE/.netrc" "$HOME/.netrc"
 install_dotfile "$SENSITIVE/.ngrok2" "$HOME/.ngrok2"
 # octave (probably not sensitive, CBA)
 install_dotfile "$SENSITIVE/.config/octave" "$HOME/.config/octave"
+# PyPI
+install_dotfile "$SENSITIVE/.pypirc" "$HOME/.pypirc"
