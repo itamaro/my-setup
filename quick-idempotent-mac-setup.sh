@@ -77,3 +77,5 @@ install_dotfile "$SENSITIVE/.ngrok2" "$HOME/.ngrok2"
 install_dotfile "$SENSITIVE/.config/octave" "$HOME/.config/octave"
 # PyPI
 install_dotfile "$SENSITIVE/.pypirc" "$HOME/.pypirc"
+# Subversion
+install_dotfile "$SENSITIVE/.subversion" "$HOME/.subversion"
