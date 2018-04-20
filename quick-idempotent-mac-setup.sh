@@ -79,3 +79,5 @@ install_dotfile "$SENSITIVE/.config/octave" "$HOME/.config/octave"
 install_dotfile "$SENSITIVE/.pypirc" "$HOME/.pypirc"
 # Subversion
 install_dotfile "$SENSITIVE/.subversion" "$HOME/.subversion"
+# Wireshark
+install_dotfile "$SENSITIVE/.config/wireshark" "$HOME/.config/wireshark"
