@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script for keeping existing Mac up to date (IDEMPOTENT & FAST)
+# Script for encrypting and backing up secrets
 
 if [ "$( uname -s )" != "Darwin" ]; then
     echo "Not running on OS X!" 1>&2
