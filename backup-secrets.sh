@@ -20,3 +20,9 @@ encrypt_file() {
   fi
   openssl aes-256-cbc -salt -a -e -in "$src" -out "$dst" -pass pass:$ENC_PASS
 }
+
+
+echo "Backing up SSH private keys"
+SECRET="$HOME/Dropbox/Mackup"
+# SSH (private keys)
+encrypt_file "$HOME/.ssh/id_rsa" "$SECRET/.ssh/id_rsa.enc"
