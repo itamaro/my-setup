@@ -26,3 +26,4 @@ echo "Backing up SSH private keys"
 SECRET="$HOME/Dropbox/Mackup"
 # SSH (private keys)
 encrypt_file "$HOME/.ssh/id_rsa" "$SECRET/.ssh/id_rsa.enc"
+encrypt_file "$HOME/.ssh/id_me_rsa" "$SECRET/.ssh/id_me_rsa.enc"
