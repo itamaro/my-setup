@@ -20,3 +20,8 @@ decrypt_file() {
   openssl aes-256-cbc -salt -a -d -in "$src" -out "$dst" -pass pass:$ENC_PASS
   chmod 400 "$dst"
 }
+
+echo "Restoring SSH private keys"
+SECRET="$HOME/Dropbox/Mackup"
+# SSH (private keys)
+decrypt_file "$HOME/.ssh/id_rsa" "$SECRET/.ssh/id_rsa.enc"
