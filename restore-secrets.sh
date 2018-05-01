@@ -25,3 +25,4 @@ echo "Restoring SSH private keys"
 SECRET="$HOME/Dropbox/Mackup"
 # SSH (private keys)
 decrypt_file "$HOME/.ssh/id_rsa" "$SECRET/.ssh/id_rsa.enc"
+decrypt_file "$HOME/.ssh/id_me_rsa" "$SECRET/.ssh/id_me_rsa.enc"
