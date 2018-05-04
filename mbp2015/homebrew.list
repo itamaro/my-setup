@@ -19,6 +19,7 @@ dos2unix 7.3.4
 eot-utils 1.1
 epstool 3.08
 etcd 3.1.0
+ethereum 1.7.3
 fftw 3.3.5
 fig2dev 3.2.5e
 firebase-cli 3.15.4
@@ -30,7 +31,6 @@ gawk 4.1.4_1
 gcc 5.3.0 6.2.0
 gd 2.2.3_1 2.2.5
 gdbm 1.11 1.12 1.13 1.14.1_1
-geth 1.7.3
 gettext 0.19.5.1 0.19.8.1
 gflags 2.1.2 2.2.0
 ghostscript 9.19
@@ -95,7 +95,7 @@ node 5.9.1 7.2.0 7.8.0 8.3.0 8.9.0 8.9.1
 numpy 1.10.4 1.11.2
 octave 4.2.0
 oniguruma 6.4.0
-openssl 1.0.2d_1 1.0.2e 1.0.2e_1 1.0.2f 1.0.2g 1.0.2j 1.0.2k 1.0.2l 1.0.2m 1.0.2n
+openssl 1.0.2d_1 1.0.2e 1.0.2e_1 1.0.2f 1.0.2g 1.0.2j 1.0.2k 1.0.2l 1.0.2m 1.0.2n 1.0.2o_1
 openssl@1.1 1.1.0f
 openvpn 2.3.10 2.3.13
 p7zip 16.02 9.20.1
@@ -111,6 +111,7 @@ protobuf 2.6.1 3.1.0 3.2.0 3.2.0_1 3.4.0
 pstoedit 3.70
 pyqt 5.7
 python 2.7.10_2 2.7.12_2 2.7.14_3 3.5.1 3.5.2_3 3.6.0 3.6.2 3.6.4_4
+python@2 2.7.15
 qhull 2015.2
 qrupdate 1.1.2_4
 qscintilla2 2.9.3_3
@@ -123,7 +124,7 @@ scons 2.3.6 2.5.1
 sip 4.18.1
 sl 5.02
 socat 1.7.3.2_1
-sqlite 3.11.0 3.15.2 3.16.2 3.20.1 3.22.0 3.8.11.1
+sqlite 3.11.0 3.15.2 3.16.2 3.20.1 3.22.0 3.23.1 3.8.11.1
 ssh-copy-id 6.8p1 7.3p1
 sshfs 2.10
 suite-sparse 4.5.3
