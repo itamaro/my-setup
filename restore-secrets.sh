@@ -30,3 +30,6 @@ decrypt_file "$HOME/.ssh/id_rsa_crs" "$SECRET/.ssh/id_rsa_crs.enc"
 decrypt_file "$HOME/.ssh/id_rsa_github" "$SECRET/.ssh/id_rsa_github.enc"
 decrypt_file "$HOME/.ssh/itamaro" "$SECRET/.ssh/itamaro.enc"
 decrypt_file "$HOME/.ssh/google_compute_engine" "$SECRET/.ssh/google_compute_engine.enc"
+
+# AWS (credentials)
+decrypt_file "$HOME/.aws/credentials" "$SECRET/.aws/credentials.enc"
