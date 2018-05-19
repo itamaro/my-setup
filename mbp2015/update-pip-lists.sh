@@ -1,4 +1,5 @@
 #!/bin/bash
 
-echo "Save version of installed Python"
+echo "Save versions of installed Python & Pip"
 python -V &> python.version
+pip -V > pip.version 2> /dev/null
