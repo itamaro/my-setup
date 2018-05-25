@@ -118,7 +118,7 @@ qscintilla2 2.9.3_3
 qt 5.7.0
 readline 6.3.8 7.0.1 7.0.3_1
 rename 1.600
-ruby 2.2.3 2.3.0 2.3.3 2.4.2_1 2.5.0_2
+ruby 2.2.3 2.3.0 2.3.3 2.4.2_1 2.5.0_2 2.5.1
 rust 1.22.1
 scons 2.3.6 2.5.1
 sip 4.18.1
@@ -134,7 +134,7 @@ telepresence 0.65
 texinfo 6.3
 todo-txt 2.10
 torsocks 2.2.0
-travis 1.8.8_2
+travis 1.8.8_2 1.8.8_3
 tree 1.7.0
 unrar 5.5.3
 veclibfort 0.4.2_3
