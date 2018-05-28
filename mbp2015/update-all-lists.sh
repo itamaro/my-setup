@@ -18,3 +18,4 @@ cd $BASE_DIR
 
 ./update-brew-lists.sh
 ./update-apps-list.sh
+./update-pip-lists.sh
