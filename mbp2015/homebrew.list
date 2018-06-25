@@ -15,6 +15,8 @@ coreutils 8.24 8.26
 cowsay 3.04
 curl 7.51.0
 czmq 3.0.2_1 4.0.1
+docker-machine 0.14.0
+docker-machine-driver-xhyve 0.3.3
 dos2unix 7.3.4
 eot-utils 1.1
 epstool 3.08
@@ -67,6 +69,7 @@ kubectx 0.3.1
 kubernetes-cli 1.5.1_1 1.6.3 1.7.4
 kubernetes-helm 2.2.0 2.6.1
 kubetail 1.2.1
+libev 4.24
 libffi 3.0.13 3.2.1
 libgcrypt 1.6.4_1 1.7.3
 libgpg-error 1.21 1.25
