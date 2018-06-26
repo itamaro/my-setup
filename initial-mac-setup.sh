@@ -28,6 +28,8 @@ brew_formulae=(
     docker-completion
     docker-compose
     docker-compose-completion
+    docker-machine
+    docker-machine-driver-xhyve
     dos2unix
     findutils
     firebase-cli
@@ -45,6 +47,7 @@ brew_formulae=(
     jq
     kubernetes-cli
     kubernetes-helm
+    libev
     maven
     nano
     node
@@ -89,6 +92,7 @@ brew_casks=(
     karabiner
     lastpass
     mactex
+    minikube
     ngrok
     nvalt
     pandoc
