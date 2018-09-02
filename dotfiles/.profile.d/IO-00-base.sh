@@ -70,6 +70,7 @@ mcd () { mkdir -p "$1" && cd "$1"; }        # mcd:          Makes new Dir and ju
 trash () { command mv "$@" ~/.Trash ; }     # trash:        Moves a file to the MacOS trash
 ql () { qlmanage -p "$*" >& /dev/null; }    # ql:           Opens any file in MacOS Quicklook Preview
 alias DT='tee ~/Desktop/terminalOut.txt'    # DT:           Pipe content to file on MacOS Desktop
+wttr () { curl wttr.in/~${1:-Redmond}; }    # wttr:         Get weather forecast for location in $1 (or default Redmond)
 
 #   lr:  Full Recursive Directory Listing
 #   ------------------------------------------
